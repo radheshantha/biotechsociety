@@ -335,6 +335,21 @@ border: 20px solid #222;
 
 }
 
+h1.alumni{
+  font-family:arial;
+  font-size: 40px;
+ background-color:#FFFFFF;
+text-align:left;
+line-height:10px;
+padding:10px 50px;
+width:1600px;
+height:50px;
+text-align: left;
+border: 1px solid #222;
+border-radius: 2px;
+font-color: #FFFFFF;
+
+}
 
  h1.committe-title{
    font-family:arial;
@@ -363,6 +378,19 @@ h2.name-title{
 }
 
 p.paragraph-text{
+  font-family:arial;
+  font-size: 15px;
+  background-color:#FEFEFE;
+  text-align:left;
+  line-height:30px;
+  padding:10px 50px;
+  width:1000px;
+  border: 10px solid #222;
+  border-radius: 2px;
+  font-color: #3658C7;
+}
+
+ul.list-text{
   font-family:arial;
   font-size: 15px;
   background-color:#FEFEFE;
