@@ -1,0 +1,124 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 56px;
+}
+
+#MainWrapper {
+width: 1600px;
+/* you would need to set this to whatever size you wanted your site to be, which would fix the rest of the content with in that */
+}
+nav{
+
+height:85px;
+background-color:#FFFFFF;
+font-size: 19px;
+
+}
+
+
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+
+}
+/*the margin here keeps all the nav tabs on the same line*/
+nav ul li{
+  float:left;
+margin-right: 60px;
+  list-style:none;
+
+
+
+}
+
+nav ul li a{
+  display:block;
+  font-family:arial;
+  color:#222;
+  font-size:14px;
+  padding:24px 40px;
+
+  text-decoration:none;
+
+}
+
+nav ul li ul {
+  display:none;
+  position: absolute;
+  background-color:#FFFFFF;
+  padding:10px;
+  border-radius:0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+  display:block;
+}
+
+nav ul li ul li{
+  width:250px;
+  border-radius: 4px;
+}
+
+nav ul li ul li a{
+padding: 10px 20px;
+
+}
+
+
+nav ul li ul li a:hover {
+background-color: #f3f3f3;
+}
+/*this is the list items eg.home, about us etc*/
+nav ul li a{
+  display:block;
+  font-family:arial;
+  color:#222;
+  font-size:18px;
+  padding:24px 40px;
+  margin-top: 5px;
+
+}
+/*this is the background for the drop downs eg.connect with committee*/
+nav ul li ul {
+  display:none;
+  position: absolute;
+  background-color:#FFFFFF;
+  padding:0px;
+  border-radius:0px 0px 4px 4px;
+
+}
+
+
+}
+/*this hovers over the drop down list*/
+nav ul li:hover ul {
+  display:block;
+}
+/*the following sets the width of drop down eg. connect with commitee width*/
+nav ul li ul li{
+  width:150px;
+  border-radius: 4px;
+}
+
+nav ul li ul li a{
+padding: 10px 20px;
+
+}
+
+nav ul li ul li a:hover {
+background-color: #f3f3f3;
+}
+.header {
+    height: 80%;
+    width: 8%;
+    float: left;
+
+}
